@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ActiTime Scenarios">
+	<test name="Scenarios">
+		<classes>
+			<class name="com.sgtesting.tests.LoginLogoutInTestNg"></class>
+			<class name="com.sgtesting.tests.CreateCustomerScenario"></class>
+			<class name="com.sgtesting.tests.CreateCustomerAllScenario"></class>
+			<class name="com.sgtesting.tests.CreateProjectScenario"></class>
+			<class name="com.sgtesting.tests.CreateProjectAllScenario"></class>
+			<class name="com.sgtesting.tests.CreateTaskScenario"></class>
+			<class name="com.sgtesting.tests.CreateUserScenario"></class>
+			<class name="com.sgtesting.tests.Assignment8Scenario"></class>
+			<class name="com.sgtesting.tests.Assignment9Scenario"></class>
+		</classes>
+	</test>
+</suite>
