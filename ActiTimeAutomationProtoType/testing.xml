@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ActiTime Scenarios">
+	<test name="Scenarios">
+		<classes>
+			
+			<class name="com.sgtesting.tests.CreateCustomerCreateProjectModifyProjectDeleteProjectCreateProject"></class>
+			<class name="com.sgtesting.tests.CreateCustomerCreateProjectDeleteProjectCreateProject"></class>
+			<class name="com.sgtesting.tests.CreateCustomerCreateProjecCreateTaskDeleteTaskDeleteProjectCreateProject"></class>
+			<class name="com.sgtesting.tests.CreatecustomerAndModifyCustomerAndDeleteCustomerDemo"></class>
+			<class name="com.sgtesting.tests.CreateCustomerAndDeleteCustomerScanario"></class>
+			<class name="com.sgtesting.tests.CreateAndDeleteUserScanario"></class>
+			<class name="com.sgtesting.tests.AdvanceAssignment8InScenario"></class>
+			<class name="com.sgtesting.tests.AdvanceAssignment9InScenario"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="260" passed="260" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-18T17:10:15 IST" name="ActiTime Scenarios" finished-at="2023-12-18T17:24:48 IST" duration-ms="873022">
+    <groups>
+    </groups>
+    <test started-at="2023-12-18T17:10:15 IST" name="Scenarios" finished-at="2023-12-18T17:24:48 IST" duration-ms="873022">
+      <class name="com.sgtesting.tests.LoginLogoutInTestNg">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.LoginLogoutInTestNg@23c30a20]" started-at="2023-12-18T17:10:15 IST" name="launchBrowser" finished-at="2023-12-18T17:10:17 IST" duration-ms="2086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.tests.LoginLogoutInTestNg@23c30a20]" started-at="2023-12-18T17:10:17 IST" name="navigate" finished-at="2023-12-18T17:10:23 IST" duration-ms="5652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.LoginLogoutInTestNg@23c30a20]" started-at="2023-12-18T17:10:23 IST" name="login" data-provider="adminLoginData" finished-at="2023-12-18T17:10:32 IST" duration-ms="9350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="flyOutWindow()[pri:4, instance:com.sgtesting.tests.LoginLogoutInTestNg@23c30a20]" started-at="2023-12-18T17:10:32 IST" name="flyOutWindow" finished-at="2023-12-18T17:10:35 IST" duration-ms="3077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flyOutWindow -->
+        <test-method signature="logout()[pri:5, instance:com.sgtesting.tests.LoginLogoutInTestNg@23c30a20]" started-at="2023-12-18T17:10:35 IST" name="logout" finished-at="2023-12-18T17:10:39 IST" duration-ms="3247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:6, instance:com.sgtesting.tests.LoginLogoutInTestNg@23c30a20]" started-at="2023-12-18T17:10:39 IST" name="closeApplication" finished-at="2023-12-18T17:10:39 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.LoginLogoutInTestNg -->
+      <class name="com.sgtesting.tests.CreateUserScenario">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:15:34 IST" name="launchBrowser" finished-at="2023-12-18T17:15:35 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:15:35 IST" name="navigate" finished-at="2023-12-18T17:15:41 IST" duration-ms="5597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login()[pri:3, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:15:41 IST" name="login" finished-at="2023-12-18T17:15:50 IST" duration-ms="9395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="flyOutWindow()[pri:4, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:15:50 IST" name="flyOutWindow" finished-at="2023-12-18T17:15:54 IST" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flyOutWindow -->
+        <test-method signature="createUser()[pri:5, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:15:54 IST" name="createUser" finished-at="2023-12-18T17:15:57 IST" duration-ms="3560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="Adduser()[pri:6, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:15:57 IST" name="Adduser" finished-at="2023-12-18T17:16:00 IST" duration-ms="3106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adduser -->
+        <test-method signature="FN()[pri:7, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:00 IST" name="FN" finished-at="2023-12-18T17:16:00 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FN -->
+        <test-method signature="LN()[pri:8, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:00 IST" name="LN" finished-at="2023-12-18T17:16:00 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LN -->
+        <test-method signature="Email()[pri:9, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:00 IST" name="Email" finished-at="2023-12-18T17:16:01 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email -->
+        <test-method signature="username()[pri:10, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:01 IST" name="username" finished-at="2023-12-18T17:16:01 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method signature="password()[pri:11, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:01 IST" name="password" finished-at="2023-12-18T17:16:01 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method signature="passwordcopy()[pri:12, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:01 IST" name="passwordcopy" finished-at="2023-12-18T17:16:01 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordcopy -->
+        <test-method signature="createuser()[pri:13, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:01 IST" name="createuser" finished-at="2023-12-18T17:16:04 IST" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="modifyUserdata()[pri:14, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:04 IST" name="modifyUserdata" finished-at="2023-12-18T17:16:07 IST" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUserdata -->
+        <test-method signature="modifyData()[pri:15, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:07 IST" name="modifyData" finished-at="2023-12-18T17:16:13 IST" duration-ms="6228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyData -->
+        <test-method signature="modifycreateuser()[pri:16, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:13 IST" name="modifycreateuser" finished-at="2023-12-18T17:16:17 IST" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycreateuser -->
+        <test-method signature="userForOpen()[pri:17, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:17 IST" name="userForOpen" finished-at="2023-12-18T17:16:20 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userForOpen -->
+        <test-method signature="userdelete()[pri:18, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:20 IST" name="userdelete" finished-at="2023-12-18T17:16:27 IST" duration-ms="7115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userdelete -->
+        <test-method signature="logout()[pri:19, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:27 IST" name="logout" finished-at="2023-12-18T17:16:30 IST" duration-ms="3250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:20, instance:com.sgtesting.tests.CreateUserScenario@54e1c68b]" started-at="2023-12-18T17:16:30 IST" name="closeApplication" finished-at="2023-12-18T17:16:30 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.CreateUserScenario -->
+      <class name="com.sgtesting.tests.CreateCustomerAllScenario">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:11:33 IST" name="launchBrowser" finished-at="2023-12-18T17:11:34 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:11:34 IST" name="navigate" finished-at="2023-12-18T17:11:40 IST" duration-ms="5622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login()[pri:3, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:11:40 IST" name="login" finished-at="2023-12-18T17:11:49 IST" duration-ms="9338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="flyOutWindow()[pri:4, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:11:49 IST" name="flyOutWindow" finished-at="2023-12-18T17:11:52 IST" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flyOutWindow -->
+        <test-method signature="taskClick()[pri:5, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:11:52 IST" name="taskClick" finished-at="2023-12-18T17:11:56 IST" duration-ms="3391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskClick -->
+        <test-method signature="AddnewTask()[pri:6, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:11:56 IST" name="AddnewTask" finished-at="2023-12-18T17:11:59 IST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewTask -->
+        <test-method signature="AddnewCustomer()[pri:7, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:11:59 IST" name="AddnewCustomer" finished-at="2023-12-18T17:12:02 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewCustomer -->
+        <test-method signature="InsertDataIntoCustomer()[pri:8, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:12:02 IST" name="InsertDataIntoCustomer" finished-at="2023-12-18T17:12:08 IST" duration-ms="6262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertDataIntoCustomer -->
+        <test-method signature="clickCustomerButton()[pri:9, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:12:08 IST" name="clickCustomerButton" finished-at="2023-12-18T17:12:11 IST" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerButton -->
+        <test-method signature="clickCustomerSettingButton()[pri:10, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:12:11 IST" name="clickCustomerSettingButton" finished-at="2023-12-18T17:12:14 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerSettingButton -->
+        <test-method signature="clickCustomerActiveButton()[pri:11, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:12:14 IST" name="clickCustomerActiveButton" finished-at="2023-12-18T17:12:17 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerActiveButton -->
+        <test-method signature="clickCustomerArchivedButton()[pri:12, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:12:17 IST" name="clickCustomerArchivedButton" finished-at="2023-12-18T17:12:20 IST" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerArchivedButton -->
+        <test-method signature="clickActionButton()[pri:13, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:12:20 IST" name="clickActionButton" finished-at="2023-12-18T17:12:23 IST" duration-ms="3077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickActionButton -->
+        <test-method signature="clickDeleteButton()[pri:14, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:12:23 IST" name="clickDeleteButton" finished-at="2023-12-18T17:12:27 IST" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDeleteButton -->
+        <test-method signature="clickpermanenetDeleteButton()[pri:15, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:12:27 IST" name="clickpermanenetDeleteButton" finished-at="2023-12-18T17:12:30 IST" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickpermanenetDeleteButton -->
+        <test-method signature="logout()[pri:16, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:12:30 IST" name="logout" finished-at="2023-12-18T17:12:33 IST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:17, instance:com.sgtesting.tests.CreateCustomerAllScenario@b9b00e0]" started-at="2023-12-18T17:12:33 IST" name="closeApplication" finished-at="2023-12-18T17:12:33 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.CreateCustomerAllScenario -->
+      <class name="com.sgtesting.tests.CreateTaskScenario">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:14:28 IST" name="launchBrowser" finished-at="2023-12-18T17:14:29 IST" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:14:29 IST" name="navigate" finished-at="2023-12-18T17:14:35 IST" duration-ms="5637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login()[pri:3, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:14:35 IST" name="login" finished-at="2023-12-18T17:14:44 IST" duration-ms="9337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="flyOutWindow()[pri:4, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:14:44 IST" name="flyOutWindow" finished-at="2023-12-18T17:14:47 IST" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flyOutWindow -->
+        <test-method signature="taskClick()[pri:5, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:14:47 IST" name="taskClick" finished-at="2023-12-18T17:14:50 IST" duration-ms="3405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskClick -->
+        <test-method signature="AddnewTask()[pri:6, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:14:50 IST" name="AddnewTask" finished-at="2023-12-18T17:14:53 IST" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewTask -->
+        <test-method signature="AddnewProject()[pri:7, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:14:53 IST" name="AddnewProject" finished-at="2023-12-18T17:14:57 IST" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewProject -->
+        <test-method signature="insertdataintoProject()[pri:8, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:14:57 IST" name="insertdataintoProject" finished-at="2023-12-18T17:15:00 IST" duration-ms="3179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertdataintoProject -->
+        <test-method signature="insertdataintocustomer()[pri:9, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:00 IST" name="insertdataintocustomer" finished-at="2023-12-18T17:15:03 IST" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertdataintocustomer -->
+        <test-method signature="clickCreateButton()[pri:10, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:03 IST" name="clickCreateButton" finished-at="2023-12-18T17:15:06 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCreateButton -->
+        <test-method signature="clickCreatetaskButton()[pri:11, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:06 IST" name="clickCreatetaskButton" finished-at="2023-12-18T17:15:09 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCreatetaskButton -->
+        <test-method signature="clickCreatenewtaskButton()[pri:12, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:09 IST" name="clickCreatenewtaskButton" finished-at="2023-12-18T17:15:12 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCreatenewtaskButton -->
+        <test-method signature="insretValueToTask()[pri:13, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:12 IST" name="insretValueToTask" finished-at="2023-12-18T17:15:15 IST" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insretValueToTask -->
+        <test-method signature="clickTaskButton()[pri:14, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:15 IST" name="clickTaskButton" finished-at="2023-12-18T17:15:18 IST" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTaskButton -->
+        <test-method signature="clickCustomerSettingButton()[pri:15, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:18 IST" name="clickCustomerSettingButton" finished-at="2023-12-18T17:15:21 IST" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerSettingButton -->
+        <test-method signature="clickActionButton()[pri:16, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:21 IST" name="clickActionButton" finished-at="2023-12-18T17:15:25 IST" duration-ms="3102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickActionButton -->
+        <test-method signature="clickDeleteButton()[pri:17, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:25 IST" name="clickDeleteButton" finished-at="2023-12-18T17:15:28 IST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDeleteButton -->
+        <test-method signature="clickpermanenetDeleteButton()[pri:18, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:28 IST" name="clickpermanenetDeleteButton" finished-at="2023-12-18T17:15:31 IST" duration-ms="3080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickpermanenetDeleteButton -->
+        <test-method signature="logout()[pri:19, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:31 IST" name="logout" finished-at="2023-12-18T17:15:34 IST" duration-ms="3266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:20, instance:com.sgtesting.tests.CreateTaskScenario@72e5a8e]" started-at="2023-12-18T17:15:34 IST" name="closeApplication" finished-at="2023-12-18T17:15:34 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.CreateTaskScenario -->
+      <class name="com.sgtesting.tests.CreateCustomerScenario">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:10:39 IST" name="launchBrowser" finished-at="2023-12-18T17:10:40 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:10:40 IST" name="navigate" finished-at="2023-12-18T17:10:46 IST" duration-ms="5613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login()[pri:3, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:10:46 IST" name="login" finished-at="2023-12-18T17:10:55 IST" duration-ms="9337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="flyOutWindow()[pri:4, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:10:55 IST" name="flyOutWindow" finished-at="2023-12-18T17:10:58 IST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flyOutWindow -->
+        <test-method signature="taskClick()[pri:5, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:10:58 IST" name="taskClick" finished-at="2023-12-18T17:11:01 IST" duration-ms="3402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskClick -->
+        <test-method signature="AddnewTask()[pri:6, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:11:01 IST" name="AddnewTask" finished-at="2023-12-18T17:11:05 IST" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewTask -->
+        <test-method signature="AddnewCustomer()[pri:7, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:11:05 IST" name="AddnewCustomer" finished-at="2023-12-18T17:11:08 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewCustomer -->
+        <test-method signature="InsertDataIntoCustomer()[pri:8, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:11:08 IST" name="InsertDataIntoCustomer" finished-at="2023-12-18T17:11:14 IST" duration-ms="6261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertDataIntoCustomer -->
+        <test-method signature="clickCustomerButton()[pri:9, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:11:14 IST" name="clickCustomerButton" finished-at="2023-12-18T17:11:17 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerButton -->
+        <test-method signature="clickCustomerSettingButton()[pri:10, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:11:17 IST" name="clickCustomerSettingButton" finished-at="2023-12-18T17:11:20 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerSettingButton -->
+        <test-method signature="clickActionButton()[pri:11, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:11:20 IST" name="clickActionButton" finished-at="2023-12-18T17:11:23 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickActionButton -->
+        <test-method signature="clickDeleteButton()[pri:12, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:11:23 IST" name="clickDeleteButton" finished-at="2023-12-18T17:11:26 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDeleteButton -->
+        <test-method signature="clickpermanenetDeleteButton()[pri:13, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:11:26 IST" name="clickpermanenetDeleteButton" finished-at="2023-12-18T17:11:29 IST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickpermanenetDeleteButton -->
+        <test-method signature="logout()[pri:14, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:11:29 IST" name="logout" finished-at="2023-12-18T17:11:33 IST" duration-ms="3282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:15, instance:com.sgtesting.tests.CreateCustomerScenario@13fd2ccd]" started-at="2023-12-18T17:11:33 IST" name="closeApplication" finished-at="2023-12-18T17:11:33 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.CreateCustomerScenario -->
+      <class name="com.sgtesting.tests.CreateProjectScenario">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:12:33 IST" name="launchBrowser" finished-at="2023-12-18T17:12:34 IST" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:12:34 IST" name="navigate" finished-at="2023-12-18T17:12:40 IST" duration-ms="5664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login()[pri:3, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:12:40 IST" name="login" finished-at="2023-12-18T17:12:49 IST" duration-ms="9332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="flyOutWindow()[pri:4, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:12:49 IST" name="flyOutWindow" finished-at="2023-12-18T17:12:53 IST" duration-ms="3102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flyOutWindow -->
+        <test-method signature="taskClick()[pri:5, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:12:53 IST" name="taskClick" finished-at="2023-12-18T17:12:56 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskClick -->
+        <test-method signature="AddnewTask()[pri:6, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:12:56 IST" name="AddnewTask" finished-at="2023-12-18T17:12:59 IST" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewTask -->
+        <test-method signature="AddnewProject()[pri:7, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:12:59 IST" name="AddnewProject" finished-at="2023-12-18T17:13:02 IST" duration-ms="3089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewProject -->
+        <test-method signature="insertdataintoProject()[pri:8, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:13:02 IST" name="insertdataintoProject" finished-at="2023-12-18T17:13:05 IST" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertdataintoProject -->
+        <test-method signature="insertdataintocustomer()[pri:9, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:13:05 IST" name="insertdataintocustomer" finished-at="2023-12-18T17:13:08 IST" duration-ms="3109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertdataintocustomer -->
+        <test-method signature="clickCreateButton()[pri:10, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:13:08 IST" name="clickCreateButton" finished-at="2023-12-18T17:13:12 IST" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCreateButton -->
+        <test-method signature="clickCustomerSettingButton()[pri:10, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:13:12 IST" name="clickCustomerSettingButton" finished-at="2023-12-18T17:13:15 IST" duration-ms="3092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerSettingButton -->
+        <test-method signature="clickActionButton()[pri:11, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:13:15 IST" name="clickActionButton" finished-at="2023-12-18T17:13:18 IST" duration-ms="3077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickActionButton -->
+        <test-method signature="clickDeleteButton()[pri:12, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:13:18 IST" name="clickDeleteButton" finished-at="2023-12-18T17:13:21 IST" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDeleteButton -->
+        <test-method signature="clickpermanenetDeleteButton()[pri:13, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:13:21 IST" name="clickpermanenetDeleteButton" finished-at="2023-12-18T17:13:24 IST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickpermanenetDeleteButton -->
+        <test-method signature="logout()[pri:14, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:13:24 IST" name="logout" finished-at="2023-12-18T17:13:27 IST" duration-ms="3256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:15, instance:com.sgtesting.tests.CreateProjectScenario@506ae4d4]" started-at="2023-12-18T17:13:27 IST" name="closeApplication" finished-at="2023-12-18T17:13:27 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.CreateProjectScenario -->
+      <class name="com.sgtesting.tests.Assignment9Scenario">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:05 IST" name="launchBrowser" finished-at="2023-12-18T17:20:06 IST" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:06 IST" name="navigate" finished-at="2023-12-18T17:20:11 IST" duration-ms="5602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login()[pri:3, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:11 IST" name="login" finished-at="2023-12-18T17:20:21 IST" duration-ms="9331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="flyOutWindow()[pri:4, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:21 IST" name="flyOutWindow" finished-at="2023-12-18T17:20:24 IST" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flyOutWindow -->
+        <test-method signature="createUser1()[pri:5, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:24 IST" name="createUser1" finished-at="2023-12-18T17:20:28 IST" duration-ms="3982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser1 -->
+        <test-method signature="Adduser1()[pri:6, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:28 IST" name="Adduser1" finished-at="2023-12-18T17:20:31 IST" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adduser1 -->
+        <test-method signature="FN1()[pri:7, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:31 IST" name="FN1" finished-at="2023-12-18T17:20:31 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FN1 -->
+        <test-method signature="LN1()[pri:8, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:31 IST" name="LN1" finished-at="2023-12-18T17:20:31 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LN1 -->
+        <test-method signature="Email1()[pri:9, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:31 IST" name="Email1" finished-at="2023-12-18T17:20:31 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email1 -->
+        <test-method signature="username1()[pri:10, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:31 IST" name="username1" finished-at="2023-12-18T17:20:31 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username1 -->
+        <test-method signature="password1()[pri:11, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:31 IST" name="password1" finished-at="2023-12-18T17:20:32 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password1 -->
+        <test-method signature="passwordcopy1()[pri:12, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:32 IST" name="passwordcopy1" finished-at="2023-12-18T17:20:32 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordcopy1 -->
+        <test-method signature="createuser1()[pri:13, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:32 IST" name="createuser1" finished-at="2023-12-18T17:20:35 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser1 -->
+        <test-method signature="logoutAdmin()[pri:14, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:35 IST" name="logoutAdmin" finished-at="2023-12-18T17:20:38 IST" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAdmin -->
+        <test-method signature="loginuser1()[pri:15, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:38 IST" name="loginuser1" finished-at="2023-12-18T17:20:47 IST" duration-ms="9278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser1 -->
+        <test-method signature="startExploreuser1()[pri:16, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:47 IST" name="startExploreuser1" finished-at="2023-12-18T17:20:50 IST" duration-ms="3090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExploreuser1 -->
+        <test-method signature="createUser2()[pri:17, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:50 IST" name="createUser2" finished-at="2023-12-18T17:20:54 IST" duration-ms="3358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser2 -->
+        <test-method signature="Adduser2()[pri:18, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:54 IST" name="Adduser2" finished-at="2023-12-18T17:20:57 IST" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adduser2 -->
+        <test-method signature="FN2()[pri:19, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:57 IST" name="FN2" finished-at="2023-12-18T17:20:57 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FN2 -->
+        <test-method signature="LN2()[pri:20, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:57 IST" name="LN2" finished-at="2023-12-18T17:20:57 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LN2 -->
+        <test-method signature="Email2()[pri:21, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:57 IST" name="Email2" finished-at="2023-12-18T17:20:57 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email2 -->
+        <test-method signature="username2()[pri:22, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:57 IST" name="username2" finished-at="2023-12-18T17:20:57 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username2 -->
+        <test-method signature="password2()[pri:23, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:57 IST" name="password2" finished-at="2023-12-18T17:20:57 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password2 -->
+        <test-method signature="passwordcopy2()[pri:24, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:57 IST" name="passwordcopy2" finished-at="2023-12-18T17:20:58 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordcopy2 -->
+        <test-method signature="createuser2()[pri:25, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:20:58 IST" name="createuser2" finished-at="2023-12-18T17:21:01 IST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser2 -->
+        <test-method signature="logoutuser1()[pri:26, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:01 IST" name="logoutuser1" finished-at="2023-12-18T17:21:04 IST" duration-ms="3245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser1 -->
+        <test-method signature="loginuser2()[pri:27, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:04 IST" name="loginuser2" finished-at="2023-12-18T17:21:13 IST" duration-ms="9270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser2 -->
+        <test-method signature="startExploreuser2()[pri:28, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:13 IST" name="startExploreuser2" finished-at="2023-12-18T17:21:16 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExploreuser2 -->
+        <test-method signature="createUser3()[pri:29, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:16 IST" name="createUser3" finished-at="2023-12-18T17:21:20 IST" duration-ms="3340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser3 -->
+        <test-method signature="Adduser3()[pri:30, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:20 IST" name="Adduser3" finished-at="2023-12-18T17:21:23 IST" duration-ms="3092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adduser3 -->
+        <test-method signature="FN3()[pri:31, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:23 IST" name="FN3" finished-at="2023-12-18T17:21:23 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FN3 -->
+        <test-method signature="LN3()[pri:32, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:23 IST" name="LN3" finished-at="2023-12-18T17:21:23 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LN3 -->
+        <test-method signature="Email3()[pri:33, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:23 IST" name="Email3" finished-at="2023-12-18T17:21:23 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email3 -->
+        <test-method signature="username3()[pri:34, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:23 IST" name="username3" finished-at="2023-12-18T17:21:23 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username3 -->
+        <test-method signature="password3()[pri:35, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:23 IST" name="password3" finished-at="2023-12-18T17:21:23 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password3 -->
+        <test-method signature="passwordcopy3()[pri:36, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:23 IST" name="passwordcopy3" finished-at="2023-12-18T17:21:23 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordcopy3 -->
+        <test-method signature="createuser3()[pri:37, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:23 IST" name="createuser3" finished-at="2023-12-18T17:21:26 IST" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser3 -->
+        <test-method signature="logoutuser2()[pri:38, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:26 IST" name="logoutuser2" finished-at="2023-12-18T17:21:30 IST" duration-ms="3209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser2 -->
+        <test-method signature="loginuser3()[pri:39, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:30 IST" name="loginuser3" finished-at="2023-12-18T17:21:39 IST" duration-ms="9279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser3 -->
+        <test-method signature="startExploreuser3()[pri:40, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:39 IST" name="startExploreuser3" finished-at="2023-12-18T17:21:42 IST" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExploreuser3 -->
+        <test-method signature="logoutuser3()[pri:41, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:42 IST" name="logoutuser3" finished-at="2023-12-18T17:21:45 IST" duration-ms="3200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser3 -->
+        <test-method signature="loginuser2ForModifyUser3()[pri:42, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:45 IST" name="loginuser2ForModifyUser3" finished-at="2023-12-18T17:21:54 IST" duration-ms="9261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser2ForModifyUser3 -->
+        <test-method signature="adminuser()[pri:43, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:54 IST" name="adminuser" finished-at="2023-12-18T17:21:58 IST" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminuser -->
+        <test-method signature="modify3()[pri:44, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:21:58 IST" name="modify3" finished-at="2023-12-18T17:22:01 IST" duration-ms="3096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify3 -->
+        <test-method signature="modify3password()[pri:45, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:01 IST" name="modify3password" finished-at="2023-12-18T17:22:01 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify3password -->
+        <test-method signature="modifycreateuser1()[pri:46, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:01 IST" name="modifycreateuser1" finished-at="2023-12-18T17:22:04 IST" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycreateuser1 -->
+        <test-method signature="logoutuser2AfterModify()[pri:47, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:04 IST" name="logoutuser2AfterModify" finished-at="2023-12-18T17:22:07 IST" duration-ms="3231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser2AfterModify -->
+        <test-method signature="loginuser3AfterModify()[pri:48, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:07 IST" name="loginuser3AfterModify" finished-at="2023-12-18T17:22:17 IST" duration-ms="9285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser3AfterModify -->
+        <test-method signature="logoutuser3AfterModify()[pri:49, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:17 IST" name="logoutuser3AfterModify" finished-at="2023-12-18T17:22:20 IST" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser3AfterModify -->
+        <test-method signature="loginuser1ForModifyUser2()[pri:50, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:20 IST" name="loginuser1ForModifyUser2" finished-at="2023-12-18T17:22:29 IST" duration-ms="9284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser1ForModifyUser2 -->
+        <test-method signature="adminuser1()[pri:51, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:29 IST" name="adminuser1" finished-at="2023-12-18T17:22:33 IST" duration-ms="3364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminuser1 -->
+        <test-method signature="modify2()[pri:52, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:33 IST" name="modify2" finished-at="2023-12-18T17:22:36 IST" duration-ms="3175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify2 -->
+        <test-method signature="modify2password()[pri:53, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:36 IST" name="modify2password" finished-at="2023-12-18T17:22:36 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify2password -->
+        <test-method signature="modifycreateuser2()[pri:54, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:36 IST" name="modifycreateuser2" finished-at="2023-12-18T17:22:39 IST" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycreateuser2 -->
+        <test-method signature="logoutuser1AfterModify()[pri:55, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:39 IST" name="logoutuser1AfterModify" finished-at="2023-12-18T17:22:42 IST" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser1AfterModify -->
+        <test-method signature="loginuser2AfterModify()[pri:56, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:42 IST" name="loginuser2AfterModify" finished-at="2023-12-18T17:22:52 IST" duration-ms="9266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser2AfterModify -->
+        <test-method signature="logoutuser2AfternextModify()[pri:57, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:52 IST" name="logoutuser2AfternextModify" finished-at="2023-12-18T17:22:55 IST" duration-ms="3200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser2AfternextModify -->
+        <test-method signature="loginAsAdmin()[pri:58, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:22:55 IST" name="loginAsAdmin" finished-at="2023-12-18T17:23:04 IST" duration-ms="9256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdmin -->
+        <test-method signature="adminUserClick()[pri:59, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:04 IST" name="adminUserClick" finished-at="2023-12-18T17:23:07 IST" duration-ms="3360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminUserClick -->
+        <test-method signature="modify1()[pri:60, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:07 IST" name="modify1" finished-at="2023-12-18T17:23:11 IST" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify1 -->
+        <test-method signature="modify1password()[pri:61, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:11 IST" name="modify1password" finished-at="2023-12-18T17:23:11 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify1password -->
+        <test-method signature="modifycreateuser1CLickButton()[pri:62, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:11 IST" name="modifycreateuser1CLickButton" finished-at="2023-12-18T17:23:14 IST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycreateuser1CLickButton -->
+        <test-method signature="logoutadmin()[pri:63, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:14 IST" name="logoutadmin" finished-at="2023-12-18T17:23:17 IST" duration-ms="3231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutadmin -->
+        <test-method signature="loginuser1AfterModify()[pri:64, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:17 IST" name="loginuser1AfterModify" finished-at="2023-12-18T17:23:26 IST" duration-ms="9276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser1AfterModify -->
+        <test-method signature="logoutuser1AfternextModify()[pri:65, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:26 IST" name="logoutuser1AfternextModify" finished-at="2023-12-18T17:23:30 IST" duration-ms="3198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser1AfternextModify -->
+        <test-method signature="loginuser2last()[pri:66, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:30 IST" name="loginuser2last" finished-at="2023-12-18T17:23:39 IST" duration-ms="9266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser2last -->
+        <test-method signature="adminUser2Click()[pri:67, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:39 IST" name="adminUser2Click" finished-at="2023-12-18T17:23:42 IST" duration-ms="3371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminUser2Click -->
+        <test-method signature="modify3delete()[pri:68, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:42 IST" name="modify3delete" finished-at="2023-12-18T17:23:45 IST" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify3delete -->
+        <test-method signature="user3delete()[pri:69, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:45 IST" name="user3delete" finished-at="2023-12-18T17:23:52 IST" duration-ms="7097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user3delete -->
+        <test-method signature="logoutuser1last()[pri:70, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:52 IST" name="logoutuser1last" finished-at="2023-12-18T17:23:56 IST" duration-ms="3211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser1last -->
+        <test-method signature="loginuser1last()[pri:71, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:23:56 IST" name="loginuser1last" finished-at="2023-12-18T17:24:05 IST" duration-ms="9283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser1last -->
+        <test-method signature="adminUser1Click()[pri:72, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:24:05 IST" name="adminUser1Click" finished-at="2023-12-18T17:24:08 IST" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminUser1Click -->
+        <test-method signature="modify2delete()[pri:73, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:24:08 IST" name="modify2delete" finished-at="2023-12-18T17:24:11 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify2delete -->
+        <test-method signature="user2delete()[pri:74, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:24:11 IST" name="user2delete" finished-at="2023-12-18T17:24:18 IST" duration-ms="7079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user2delete -->
+        <test-method signature="logoutuser1nextlast()[pri:75, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:24:18 IST" name="logoutuser1nextlast" finished-at="2023-12-18T17:24:22 IST" duration-ms="3225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser1nextlast -->
+        <test-method signature="loginAdminlast()[pri:76, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:24:22 IST" name="loginAdminlast" finished-at="2023-12-18T17:24:31 IST" duration-ms="9259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdminlast -->
+        <test-method signature="adminClick()[pri:77, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:24:31 IST" name="adminClick" finished-at="2023-12-18T17:24:34 IST" duration-ms="3346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminClick -->
+        <test-method signature="modify1delete()[pri:78, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:24:34 IST" name="modify1delete" finished-at="2023-12-18T17:24:37 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify1delete -->
+        <test-method signature="user1delete()[pri:79, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:24:37 IST" name="user1delete" finished-at="2023-12-18T17:24:44 IST" duration-ms="7096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user1delete -->
+        <test-method signature="logoutadminlast()[pri:80, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:24:44 IST" name="logoutadminlast" finished-at="2023-12-18T17:24:48 IST" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutadminlast -->
+        <test-method signature="closeApplication()[pri:81, instance:com.sgtesting.tests.Assignment9Scenario@52b1beb6]" started-at="2023-12-18T17:24:48 IST" name="closeApplication" finished-at="2023-12-18T17:24:48 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.Assignment9Scenario -->
+      <class name="com.sgtesting.tests.Assignment8Scenario">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:30 IST" name="launchBrowser" finished-at="2023-12-18T17:16:32 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:32 IST" name="navigate" finished-at="2023-12-18T17:16:38 IST" duration-ms="6866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login()[pri:3, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:38 IST" name="login" finished-at="2023-12-18T17:16:48 IST" duration-ms="9337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="flyOutWindow()[pri:4, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:48 IST" name="flyOutWindow" finished-at="2023-12-18T17:16:51 IST" duration-ms="3076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flyOutWindow -->
+        <test-method signature="createUser()[pri:5, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:51 IST" name="createUser" finished-at="2023-12-18T17:16:54 IST" duration-ms="3498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="Adduser()[pri:6, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:54 IST" name="Adduser" finished-at="2023-12-18T17:16:57 IST" duration-ms="3091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adduser -->
+        <test-method signature="FN()[pri:7, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:57 IST" name="FN" finished-at="2023-12-18T17:16:58 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FN -->
+        <test-method signature="LN()[pri:8, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:58 IST" name="LN" finished-at="2023-12-18T17:16:58 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LN -->
+        <test-method signature="Email()[pri:9, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:58 IST" name="Email" finished-at="2023-12-18T17:16:58 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email -->
+        <test-method signature="username()[pri:10, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:58 IST" name="username" finished-at="2023-12-18T17:16:58 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method signature="password()[pri:11, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:58 IST" name="password" finished-at="2023-12-18T17:16:58 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method signature="passwordcopy()[pri:12, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:58 IST" name="passwordcopy" finished-at="2023-12-18T17:16:58 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordcopy -->
+        <test-method signature="createuser()[pri:13, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:16:58 IST" name="createuser" finished-at="2023-12-18T17:17:01 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="Adduser2()[pri:14, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:01 IST" name="Adduser2" finished-at="2023-12-18T17:17:04 IST" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adduser2 -->
+        <test-method signature="FN2()[pri:15, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:04 IST" name="FN2" finished-at="2023-12-18T17:17:05 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FN2 -->
+        <test-method signature="LN2()[pri:16, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:05 IST" name="LN2" finished-at="2023-12-18T17:17:05 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LN2 -->
+        <test-method signature="Email2()[pri:17, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:05 IST" name="Email2" finished-at="2023-12-18T17:17:05 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email2 -->
+        <test-method signature="username2()[pri:18, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:05 IST" name="username2" finished-at="2023-12-18T17:17:05 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username2 -->
+        <test-method signature="password2()[pri:19, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:05 IST" name="password2" finished-at="2023-12-18T17:17:05 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password2 -->
+        <test-method signature="passwordcopy2()[pri:20, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:05 IST" name="passwordcopy2" finished-at="2023-12-18T17:17:05 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordcopy2 -->
+        <test-method signature="createuser3()[pri:21, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:05 IST" name="createuser3" finished-at="2023-12-18T17:17:08 IST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser3 -->
+        <test-method signature="Adduser3()[pri:22, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:08 IST" name="Adduser3" finished-at="2023-12-18T17:17:11 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adduser3 -->
+        <test-method signature="FN3()[pri:23, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:11 IST" name="FN3" finished-at="2023-12-18T17:17:11 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FN3 -->
+        <test-method signature="LN3()[pri:24, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:11 IST" name="LN3" finished-at="2023-12-18T17:17:11 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LN3 -->
+        <test-method signature="Email3()[pri:25, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:11 IST" name="Email3" finished-at="2023-12-18T17:17:12 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email3 -->
+        <test-method signature="username3()[pri:26, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:12 IST" name="username3" finished-at="2023-12-18T17:17:12 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username3 -->
+        <test-method signature="password3()[pri:27, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:12 IST" name="password3" finished-at="2023-12-18T17:17:12 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password3 -->
+        <test-method signature="passwordcopy3()[pri:28, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:12 IST" name="passwordcopy3" finished-at="2023-12-18T17:17:12 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordcopy3 -->
+        <test-method signature="createuser2()[pri:29, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:12 IST" name="createuser2" finished-at="2023-12-18T17:17:15 IST" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser2 -->
+        <test-method signature="logout()[pri:30, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:15 IST" name="logout" finished-at="2023-12-18T17:17:18 IST" duration-ms="3296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="loginuser1()[pri:31, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:18 IST" name="loginuser1" finished-at="2023-12-18T17:17:28 IST" duration-ms="9294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser1 -->
+        <test-method signature="startExploreuser1()[pri:32, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:28 IST" name="startExploreuser1" finished-at="2023-12-18T17:17:31 IST" duration-ms="3092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExploreuser1 -->
+        <test-method signature="logoutuser1()[pri:33, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:31 IST" name="logoutuser1" finished-at="2023-12-18T17:17:34 IST" duration-ms="3208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser1 -->
+        <test-method signature="loginuser2()[pri:34, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:34 IST" name="loginuser2" finished-at="2023-12-18T17:17:43 IST" duration-ms="9272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser2 -->
+        <test-method signature="startExploreuser2()[pri:35, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:43 IST" name="startExploreuser2" finished-at="2023-12-18T17:17:46 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExploreuser2 -->
+        <test-method signature="logoutuser2()[pri:36, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:46 IST" name="logoutuser2" finished-at="2023-12-18T17:17:50 IST" duration-ms="3250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser2 -->
+        <test-method signature="loginuser3()[pri:37, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:50 IST" name="loginuser3" finished-at="2023-12-18T17:17:59 IST" duration-ms="9283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuser3 -->
+        <test-method signature="startExploreuser3()[pri:38, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:17:59 IST" name="startExploreuser3" finished-at="2023-12-18T17:18:02 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExploreuser3 -->
+        <test-method signature="logoutuser3()[pri:39, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:02 IST" name="logoutuser3" finished-at="2023-12-18T17:18:05 IST" duration-ms="3203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser3 -->
+        <test-method signature="loginAsAdmin()[pri:40, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:05 IST" name="loginAsAdmin" finished-at="2023-12-18T17:18:14 IST" duration-ms="9275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdmin -->
+        <test-method signature="adminuser()[pri:41, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:14 IST" name="adminuser" finished-at="2023-12-18T17:18:18 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminuser -->
+        <test-method signature="modify1()[pri:42, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:18 IST" name="modify1" finished-at="2023-12-18T17:18:21 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify1 -->
+        <test-method signature="modify1password()[pri:43, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:21 IST" name="modify1password" finished-at="2023-12-18T17:18:21 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify1password -->
+        <test-method signature="modifycreateuser1()[pri:44, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:21 IST" name="modifycreateuser1" finished-at="2023-12-18T17:18:24 IST" duration-ms="3097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycreateuser1 -->
+        <test-method signature="modify2()[pri:45, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:24 IST" name="modify2" finished-at="2023-12-18T17:18:27 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify2 -->
+        <test-method signature="modify2password()[pri:46, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:27 IST" name="modify2password" finished-at="2023-12-18T17:18:28 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify2password -->
+        <test-method signature="modifycreateuser2()[pri:47, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:28 IST" name="modifycreateuser2" finished-at="2023-12-18T17:18:31 IST" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycreateuser2 -->
+        <test-method signature="modify3()[pri:48, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:31 IST" name="modify3" finished-at="2023-12-18T17:18:34 IST" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify3 -->
+        <test-method signature="modify3password()[pri:49, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:34 IST" name="modify3password" finished-at="2023-12-18T17:18:34 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify3password -->
+        <test-method signature="modifycreateuser3()[pri:50, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:34 IST" name="modifycreateuser3" finished-at="2023-12-18T17:18:37 IST" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycreateuser3 -->
+        <test-method signature="modifylogoutadmin()[pri:51, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:37 IST" name="modifylogoutadmin" finished-at="2023-12-18T17:18:40 IST" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifylogoutadmin -->
+        <test-method signature="modifyloginuser1()[pri:52, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:40 IST" name="modifyloginuser1" finished-at="2023-12-18T17:18:50 IST" duration-ms="9280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyloginuser1 -->
+        <test-method signature="modifylogoutuser1()[pri:53, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:50 IST" name="modifylogoutuser1" finished-at="2023-12-18T17:18:53 IST" duration-ms="3200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifylogoutuser1 -->
+        <test-method signature="modifyloginuser2()[pri:54, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:18:53 IST" name="modifyloginuser2" finished-at="2023-12-18T17:19:02 IST" duration-ms="9258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyloginuser2 -->
+        <test-method signature="modifylogoutuser2()[pri:55, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:02 IST" name="modifylogoutuser2" finished-at="2023-12-18T17:19:05 IST" duration-ms="3190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifylogoutuser2 -->
+        <test-method signature="modifyloginuser3()[pri:56, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:05 IST" name="modifyloginuser3" finished-at="2023-12-18T17:19:15 IST" duration-ms="9287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyloginuser3 -->
+        <test-method signature="modifylogoutuser3()[pri:57, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:15 IST" name="modifylogoutuser3" finished-at="2023-12-18T17:19:18 IST" duration-ms="3187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifylogoutuser3 -->
+        <test-method signature="Adminlogin()[pri:58, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:18 IST" name="Adminlogin" finished-at="2023-12-18T17:19:27 IST" duration-ms="9258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adminlogin -->
+        <test-method signature="modifycreateUser()[pri:59, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:27 IST" name="modifycreateUser" finished-at="2023-12-18T17:19:30 IST" duration-ms="3373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycreateUser -->
+        <test-method signature="modify1delete()[pri:60, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:30 IST" name="modify1delete" finished-at="2023-12-18T17:19:34 IST" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify1delete -->
+        <test-method signature="user1delete()[pri:61, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:34 IST" name="user1delete" finished-at="2023-12-18T17:19:41 IST" duration-ms="7096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user1delete -->
+        <test-method signature="modify2delete()[pri:62, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:41 IST" name="modify2delete" finished-at="2023-12-18T17:19:44 IST" duration-ms="3090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify2delete -->
+        <test-method signature="user2delete()[pri:63, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:44 IST" name="user2delete" finished-at="2023-12-18T17:19:51 IST" duration-ms="7085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user2delete -->
+        <test-method signature="modify3delete()[pri:64, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:51 IST" name="modify3delete" finished-at="2023-12-18T17:19:54 IST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify3delete -->
+        <test-method signature="user3delete()[pri:65, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:19:54 IST" name="user3delete" finished-at="2023-12-18T17:20:01 IST" duration-ms="7096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user3delete -->
+        <test-method signature="logoutlast()[pri:66, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:20:01 IST" name="logoutlast" finished-at="2023-12-18T17:20:04 IST" duration-ms="3237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutlast -->
+        <test-method signature="closeApplication()[pri:67, instance:com.sgtesting.tests.Assignment8Scenario@53aac487]" started-at="2023-12-18T17:20:04 IST" name="closeApplication" finished-at="2023-12-18T17:20:05 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.Assignment8Scenario -->
+      <class name="com.sgtesting.tests.CreateProjectAllScenario">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:13:27 IST" name="launchBrowser" finished-at="2023-12-18T17:13:29 IST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:13:29 IST" name="navigate" finished-at="2023-12-18T17:13:34 IST" duration-ms="5617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login()[pri:3, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:13:34 IST" name="login" finished-at="2023-12-18T17:13:44 IST" duration-ms="9339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="flyOutWindow()[pri:4, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:13:44 IST" name="flyOutWindow" finished-at="2023-12-18T17:13:47 IST" duration-ms="3077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flyOutWindow -->
+        <test-method signature="taskClick()[pri:5, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:13:47 IST" name="taskClick" finished-at="2023-12-18T17:13:50 IST" duration-ms="3402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskClick -->
+        <test-method signature="AddnewTask()[pri:6, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:13:50 IST" name="AddnewTask" finished-at="2023-12-18T17:13:53 IST" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewTask -->
+        <test-method signature="AddnewProject()[pri:7, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:13:53 IST" name="AddnewProject" finished-at="2023-12-18T17:13:56 IST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewProject -->
+        <test-method signature="insertdataintoProject()[pri:8, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:13:56 IST" name="insertdataintoProject" finished-at="2023-12-18T17:13:59 IST" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertdataintoProject -->
+        <test-method signature="insertdataintocustomer()[pri:9, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:13:59 IST" name="insertdataintocustomer" finished-at="2023-12-18T17:14:02 IST" duration-ms="3111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertdataintocustomer -->
+        <test-method signature="clickCreateButton()[pri:10, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:14:02 IST" name="clickCreateButton" finished-at="2023-12-18T17:14:06 IST" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCreateButton -->
+        <test-method signature="clickCustomerSettingButton()[pri:11, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:14:06 IST" name="clickCustomerSettingButton" finished-at="2023-12-18T17:14:09 IST" duration-ms="3090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerSettingButton -->
+        <test-method signature="clickCustomerActiveButton()[pri:12, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:14:09 IST" name="clickCustomerActiveButton" finished-at="2023-12-18T17:14:12 IST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerActiveButton -->
+        <test-method signature="clickCustomerArchivedButton()[pri:13, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:14:12 IST" name="clickCustomerArchivedButton" finished-at="2023-12-18T17:14:15 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomerArchivedButton -->
+        <test-method signature="clickActionButton()[pri:14, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:14:15 IST" name="clickActionButton" finished-at="2023-12-18T17:14:18 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickActionButton -->
+        <test-method signature="clickDeleteButton()[pri:15, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:14:18 IST" name="clickDeleteButton" finished-at="2023-12-18T17:14:21 IST" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDeleteButton -->
+        <test-method signature="clickpermanenetDeleteButton()[pri:16, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:14:21 IST" name="clickpermanenetDeleteButton" finished-at="2023-12-18T17:14:24 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickpermanenetDeleteButton -->
+        <test-method signature="logout()[pri:17, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:14:24 IST" name="logout" finished-at="2023-12-18T17:14:27 IST" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:18, instance:com.sgtesting.tests.CreateProjectAllScenario@7d4f9aae]" started-at="2023-12-18T17:14:27 IST" name="closeApplication" finished-at="2023-12-18T17:14:28 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.CreateProjectAllScenario -->
+    </test> <!-- Scenarios -->
+  </suite> <!-- ActiTime Scenarios -->
+</testng-results>

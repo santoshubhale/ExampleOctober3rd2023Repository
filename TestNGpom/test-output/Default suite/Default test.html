@@ -1,0 +1,484 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>81/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 18 16:04:35 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>284 seconds (284105 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginuser3()'><b>loginuser3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.LN1()'><b>LN1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutuser2AfterModify()'><b>logoutuser2AfterModify</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.Email2()'><b>Email2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.password1()'><b>password1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutuser1AfterModify()'><b>logoutuser1AfterModify</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modify2password()'><b>modify2password</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutadmin()'><b>logoutadmin</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.password2()'><b>password2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.createUser2()'><b>createUser2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modify1()'><b>modify1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginuser1ForModifyUser2()'><b>loginuser1ForModifyUser2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.createUser3()'><b>createUser3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.adminUser2Click()'><b>adminUser2Click</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.user1delete()'><b>user1delete</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginuser2()'><b>loginuser2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.FN3()'><b>FN3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modify3()'><b>modify3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutuser2AfternextModify()'><b>logoutuser2AfternextModify</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.Adduser3()'><b>Adduser3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.createuser3()'><b>createuser3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modifycreateuser1CLickButton()'><b>modifycreateuser1CLickButton</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutuser1()'><b>logoutuser1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginuser2ForModifyUser3()'><b>loginuser2ForModifyUser3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutuser1AfternextModify()'><b>logoutuser1AfternextModify</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.createuser2()'><b>createuser2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.LN3()'><b>LN3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modifycreateuser2()'><b>modifycreateuser2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutuser1nextlast()'><b>logoutuser1nextlast</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutuser3()'><b>logoutuser3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.flyOutWindow()'><b>flyOutWindow</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutAdmin()'><b>logoutAdmin</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.passwordcopy2()'><b>passwordcopy2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modify2delete()'><b>modify2delete</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.adminuser()'><b>adminuser</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.FN2()'><b>FN2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.adminuser1()'><b>adminuser1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginuser1last()'><b>loginuser1last</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutuser3AfterModify()'><b>logoutuser3AfterModify</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.adminUser1Click()'><b>adminUser1Click</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modify3delete()'><b>modify3delete</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.startExploreuser1()'><b>startExploreuser1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.passwordcopy3()'><b>passwordcopy3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.Email1()'><b>Email1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.Adduser2()'><b>Adduser2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutuser1last()'><b>logoutuser1last</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginAsAdmin()'><b>loginAsAdmin</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.user2delete()'><b>user2delete</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.login()'><b>login</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.createUser1()'><b>createUser1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.LN2()'><b>LN2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modify2()'><b>modify2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginuser2AfterModify()'><b>loginuser2AfterModify</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.username2()'><b>username2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.username1()'><b>username1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginuser2last()'><b>loginuser2last</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.startExploreuser2()'><b>startExploreuser2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginuser1()'><b>loginuser1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modify1password()'><b>modify1password</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutuser2()'><b>logoutuser2</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.user3delete()'><b>user3delete</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.adminClick()'><b>adminClick</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.username3()'><b>username3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.password3()'><b>password3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.FN1()'><b>FN1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.startExploreuser3()'><b>startExploreuser3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.Email3()'><b>Email3</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.adminUserClick()'><b>adminUserClick</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modify1delete()'><b>modify1delete</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginuser3AfterModify()'><b>loginuser3AfterModify</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.Adduser1()'><b>Adduser1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.logoutadminlast()'><b>logoutadminlast</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.createuser1()'><b>createuser1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.passwordcopy1()'><b>passwordcopy1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modifycreateuser1()'><b>modifycreateuser1</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.modify3password()'><b>modify3password</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginuser1AfterModify()'><b>loginuser1AfterModify</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.loginAdminlast()'><b>loginAdminlast</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Assignment9Scenario.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.tests.Assignment9Scenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Assignment9Scenario@5ba3f27a</td></tr>
+</table><p>
+</body>
+</html>
